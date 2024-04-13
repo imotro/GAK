@@ -24,7 +24,7 @@
     document.body.appendChild(loading);
 
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://ffed813a-c81b-4a8b-9323-03859eadd5fe-00-2g5fxu39lg6v6.spock.replit.dev/build/page.html', true);
+    xhr.open('GET', 'https://gak.onrender.com/build/page.html', true);
     xhr.onprogress = function(event) {
       if (event.lengthComputable) {
         document.getElementById('i').innerText = ((event.loaded / event.total) * 100).toFixed(2)
